@@ -77,7 +77,7 @@ console.log(activeArticles);
     setInitialArticles((prevInitialArticles) => ({
       ...prevInitialArticles,
       [name] : value
-    }))
+    }));
 
     
     // const newData = {
