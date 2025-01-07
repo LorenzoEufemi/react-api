@@ -2,13 +2,6 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 
-const initialArticlesData = {
-
-  titolo: "",
-  contenuto: "",
-  immagine: "",
-  
-}
 const apiUrl = "http://localhost:3000"
 
 function App() {
